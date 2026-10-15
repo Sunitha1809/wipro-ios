@@ -1,0 +1,13 @@
+Debug Task, Fix the compile errors
+
+var price = 250
+var quantity: Int = 3
+let taxRate = 0.18
+price = 300
+let total = Double(price) * Double(quantity) * taxRate
+var title = "Order"
+title = "42"
+print(total)
+
+OUTPUT:
+162.0
